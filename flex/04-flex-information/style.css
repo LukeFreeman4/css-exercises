@@ -12,6 +12,52 @@ img {
   font-weight: 900;
 }
 
+/* My Code */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodySection {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+}
+
+.bodySection > div{
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap 0px 16px;
+}
+
+.text{
+  text-align: center;
+}
+
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
